@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FoodDelivery.Business.Models\FoodDelivery.Business.Models.csproj" />
+    <ProjectReference Include="..\FoodDelivery.Business\FoodDelivery.Business.csproj" />
+    <ProjectReference Include="..\FoodDelivery.Data\FoodDelivery.Data.csproj" />
+  </ItemGroup>
+
+</Project>
